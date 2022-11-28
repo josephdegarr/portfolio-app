@@ -1,0 +1,20 @@
+:root {
+    --pikachuyellow: #FAD61D;
+    --pikachucheekred: #F62D14;
+    --pokemonblue: #3B4CCA;
+    --squirtleturquoise: #55A3AB;
+    --squirtlelightturquoise: #A2D7D5;
+    --jigglypuffdarkpink: #E3ABB5;
+    --jigglypufflightpink: #F5D9E2;
+  
+    --fontweight-bold: 700;
+    --fontweight-regular: 400;
+  }
+
+  body {
+    background-color: var(--pikachuyellow);
+    font-family: 'Fira Code', monospace;
+    font-weight: var(--fontweight-regular);
+    font-size: 16px;
+    line-height: 1.6;
+  }
