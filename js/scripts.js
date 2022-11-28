@@ -18,8 +18,8 @@ let pokemonList = [
 
 for (let i = 0; i < pokemonList.length; i++) {
     document.write
-    (pokemonList[i].name+" "+"(Height: "+pokemonList[i].height+")"+" ");
+    ('<br>' + pokemonList[i].name+" "+"(Height: "+pokemonList[i].height+")"+" ");
 if (pokemonList[i].height >= 0.6) {
-    document.write('(bigboi) ')
+    document.write('!BIG BOI! ')
 }
   };
